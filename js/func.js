@@ -1,6 +1,6 @@
 console.log('Hello world!');
-function calculateTax(parameter1) {
-  console.log(`Tax is: ${parameter1 * 0.1}$`);
+function calculateTax(parameter1, taxPercent) {
+  console.log(`Tax is: ${parameter1 * taxPercent}$`);
 }
 
-calculateTax(500);
+calculateTax(500, 0.05);
